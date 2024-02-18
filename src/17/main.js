@@ -8,6 +8,7 @@ function findMMC(a, b) {
   while (a !== 1 || b !== 1) {
     condisionA = a % keep === 0
     condisionB = b % keep === 0
+    // console.log(keep)
     if (condisionA) {
       a = a / keep
     }
@@ -24,4 +25,5 @@ function findMMC(a, b) {
   return mmc
 }
 
-console.log(findMMC(9, 12))
+console.log(findMMC(1031
+  , 43))
